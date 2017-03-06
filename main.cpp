@@ -1,9 +1,11 @@
-#include "Sensor_create.hpp"
+#include "Central.hpp"
 
 
 
 int main()
 {
-  Sensor_create TEST();
+  Central& SYSTEM = Central::CreateInstance_Central();
+
+
   return 0;
 }
