@@ -1,10 +1,10 @@
-#include "Central.hpp"
+#include "permission_user.hpp"
 
 
 
 int main()
 {
-  Central& SYSTEM = Central::CreateInstance_Central();
+  Permission_user TEST("Michal","mikorzyn142",1);
 
 
   return 0;
